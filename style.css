@@ -380,23 +380,26 @@ img {
 }
 
 .hero-tagline {
-    font-size: 1.05rem;
-    color: var(--text-secondary);
-    line-height: 1.8;
+    font-size: 1.08rem;
+    color: rgba(245, 242, 238, 0.85);
+    line-height: 1.85;
     margin-bottom: 24px;
     max-width: 560px;
     opacity: 0;
     animation: fadeIn 0.8s 0.65s forwards;
+    font-weight: 450;
+    letter-spacing: 0.01em;
 }
 
 .hero-description {
     font-size: 1rem;
-    color: var(--text-secondary);
-    line-height: 1.85;
+    color: rgba(245, 242, 238, 0.78);
+    line-height: 1.9;
     margin-bottom: 36px;
     max-width: 560px;
     opacity: 0;
     animation: fadeIn 0.8s 0.8s forwards;
+    font-weight: 420;
 }
 
 .hero-cta {
@@ -1401,10 +1404,11 @@ section {
     max-width: 720px;
     width: 100%;
     text-align: center;
-    background: rgba(46, 204, 113, 0.02);
-    border: 1px solid rgba(46, 204, 113, 0.14);
+    background: var(--glass-bg);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--glass-border);
     border-radius: 32px;
-    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
 }
 
 .contact-info h3 {
@@ -1423,18 +1427,19 @@ section {
 
 .contact-icons {
     display: grid;
-    grid-template-columns: repeat(4, minmax(72px, 1fr));
-    gap: 18px;
+    grid-template-columns: repeat(4, minmax(64px, 1fr));
+    gap: 16px;
     margin-top: 28px;
+    justify-items: center;
 }
 
 .contact-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 78px;
-    height: 78px;
-    border-radius: 22px;
+    width: 72px;
+    height: 72px;
+    border-radius: 20px;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.14);
     color: var(--text-primary);
@@ -2056,15 +2061,33 @@ body.modal-open {
     }
 
     .contact-info {
+        padding: 28px 20px;
         margin: 0 auto;
+        border-radius: 24px;
     }
 
-    .about-content {
-        grid-template-columns: 1fr;
+    .contact-icons {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+    }
+
+    .contact-icon {
+        width: 62px;
+        height: 62px;
+        border-radius: 16px;
+    }
+
+    .contact-icon svg {
+        width: 24px;
+        height: 24px;
     }
 
     .about-visual {
         order: -1;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
     }
 
     .currently-grid {
@@ -2097,7 +2120,6 @@ body.modal-open {
 
     .about-card,
     .currently-desc-card,
-    .contact-info,
     .contact-form-wrapper,
     .project-card {
         padding: 24px;
@@ -2235,5 +2257,30 @@ body.modal-open {
         width: 34px;
         height: 34px;
         font-size: 1.25rem;
+    }
+
+    .contact-info {
+        padding: 24px 16px;
+        border-radius: 20px;
+    }
+
+    .contact-info h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact-icons {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    .contact-icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 14px;
+    }
+
+    .contact-icon svg {
+        width: 22px;
+        height: 22px;
     }
 }
