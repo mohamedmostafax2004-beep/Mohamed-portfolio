@@ -12,11 +12,11 @@ const portfolioData = {
         about:
             "I am Mohamed, a 21-year-old Front-End Developer. I have embarked on a passionate journey in learning and mastering HTML, CSS, JavaScript, Tailwind CSS, and React. Along the way, I have successfully built and deployed numerous interactive web projects, focusing on responsive design, clean semantic code, and exceptional user experiences.",
         specialties: "Web Design & UI/UX Development",
-        email: "mohamed.mostafa@example.com",
-        whatsapp: "https://wa.me/201000000000",
-        facebook: "https://facebook.com/mohamed.mostafa",
-        github: "https://github.com/MohamedMostafaDev",
-        linkedin: "https://linkedin.com/in/mohamed-mostafa",
+        email: "mohamedmostafax2004@gmail.com",
+        whatsapp: "https://wa.me/201050792421",
+        facebook: "https://www.facebook.com/share/1GuoqNma7U/",
+        github: "https://github.com/mohamedmostafax2004-beep",
+        linkedin: "",
         profileImage: "profile.jpg",
     },
     skills: {
