@@ -1,0 +1,154 @@
+const portfolioData = {
+    personal: {
+        name: "Mohamed Mostafa",
+        title: "Front-End Developer & UI/UX Designer",
+        age: 21,
+        location: "El Mahalla El Kubra, Gharbia",
+        education: {
+            university: "Sinai University",
+            faculty: "Faculty of Computers and Information",
+            duration: "2022 - 2026",
+        },
+        about:
+            "I am Mohamed, a 21-year-old Front-End Developer. I have embarked on a passionate journey in learning and mastering HTML, CSS, JavaScript, Tailwind CSS, and React. Along the way, I have successfully built and deployed numerous interactive web projects, focusing on responsive design, clean semantic code, and exceptional user experiences.",
+        specialties: "Web Design & UI/UX Development",
+        email: "mohamed.mostafa@example.com",
+        whatsapp: "https://wa.me/201000000000",
+        facebook: "https://facebook.com/mohamed.mostafa",
+        github: "https://github.com/MohamedMostafaDev",
+        linkedin: "https://linkedin.com/in/mohamed-mostafa",
+        profileImage: "profile.jpg",
+    },
+    skills: {
+        frontend: [
+            {
+                name: "React",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                level: "Advanced",
+            },
+            {
+                name: "JavaScript",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                level: "Advanced",
+            },
+            {
+                name: "HTML5 & CSS3",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+                level: "Advanced",
+            },
+            {
+                name: "Tailwind CSS",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+                level: "Advanced",
+            },
+            {
+                name: "Next.js",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+                level: "Intermediate",
+                invert: true,
+            },
+            {
+                name: "Three.js",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg",
+                level: "Intermediate",
+                invert: true,
+            },
+        ],
+        uiux: [
+            {
+                name: "Figma Prototyping",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+                level: "Advanced",
+            },
+            {
+                name: "Design Systems",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
+                level: "Advanced",
+            },
+            {
+                name: "User Flow Design",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unifiedmodelinglanguage/unifiedmodelinglanguage-original.svg",
+                level: "Advanced",
+            },
+            {
+                name: "Wireframing",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg",
+                level: "Advanced",
+            },
+        ],
+        additional: [
+            {
+                name: "Python",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+                level: "Advanced",
+            },
+            {
+                name: "C++",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+                level: "Advanced",
+            },
+        ],
+    },
+    tools: [
+        {
+            category: "Version Control",
+            icon: "🔧",
+            items: [
+                {
+                    name: "Git",
+                    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+                },
+                {
+                    name: "GitHub",
+                    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                    invert: true,
+                },
+            ],
+        },
+        {
+            category: "Hosting & Deployment",
+            icon: "🚀",
+            items: [
+                {
+                    name: "Vercel",
+                    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+                    invert: true,
+                },
+                {
+                    name: "Netlify",
+                    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg",
+                },
+            ],
+        },
+        {
+            category: "Development & CLI",
+            icon: "💻",
+            items: [
+                {
+                    name: "VS Code",
+                    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+                },
+                { name: "PowerShell / Terminal", emoji: "⬛" },
+                {
+                    name: "npm / npx",
+                    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+                },
+            ],
+        },
+        {
+            category: "AI & Productivity",
+            icon: "🤖",
+            items: [
+                { name: "Gemini AI Integrations", emoji: "✨" },
+                {
+                    name: "Figma Designs",
+                    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+                },
+                { name: "AI Coding Assistants", emoji: "🤖" },
+            ],
+        },
+    ],
+};
+
+// Export to window object for browser access
+window.portfolioData = portfolioData;
