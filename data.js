@@ -41,18 +41,6 @@ const portfolioData = {
                 icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
                 level: "Advanced",
             },
-            {
-                name: "Next.js",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-                level: "Intermediate",
-                invert: true,
-            },
-            {
-                name: "Three.js",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg",
-                level: "Intermediate",
-                invert: true,
-            },
         ],
         uiux: [
             {
@@ -148,6 +136,24 @@ const portfolioData = {
             ],
         },
     ],
+    projects: [
+        {
+            title: "Advanced Weather Forecasting Web System",
+            description: "Advanced Weather Forecasting Web System, is a full-stack web application designed to help users analyze historical weather data and forecast future weather conditions using reliable climate datasets.",
+            link: "https://skycast-weather-dashboard-three.vercel.app/",
+            icon: "🌤️",
+            tag: "Full-Stack",
+            tech: ["React", "JavaScript", "HTML5 & CSS3", "Climate API"]
+        },
+        {
+            title: "El-Abd Furnitures Factory",
+            description: "El-Abd Furnitures Web System is a premium digital catalog and showroom application built for El-Abd Furniture Factory, designed to showcase high-quality modern furniture with an interactive, responsive layout.",
+            link: "https://mohamedmostafax2004-beep.github.io/El-abd/#products",
+            icon: "🛋️",
+            tag: "Frontend Catalog",
+            tech: ["JavaScript", "HTML5", "CSS3", "Responsive UI"]
+        }
+    ]
 };
 
 // Export to window object for browser access

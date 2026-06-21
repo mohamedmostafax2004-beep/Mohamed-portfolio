@@ -45,6 +45,9 @@ function initData() {
     // Render Tools categories
     renderToolsCategories();
 
+    // Render Projects
+    renderProjects();
+
     // Init 3D Tilt for cards
     init3DTilt();
 }
@@ -123,6 +126,51 @@ function renderToolsCategories() {
             </div>
         `;
         toolsGrid.appendChild(catCard);
+    });
+}
+
+/* ============ Render Projects ============ */
+function renderProjects() {
+    const projectsGrid = document.getElementById('projectsGrid');
+    if (!projectsGrid || !data.projects) return;
+
+    projectsGrid.innerHTML = '';
+    data.projects.forEach((project, i) => {
+        const card = document.createElement('div');
+        card.className = 'project-card glass-card reveal';
+        card.style.animationDelay = `${i * 0.1}s`;
+        card.style.cursor = 'pointer';
+        
+        // Add click listener to card to redirect
+        card.addEventListener('click', (e) => {
+            if (e.target.closest('a')) return;
+            window.open(project.link, '_blank');
+        });
+
+        const techTagsHTML = project.tech.map(t => `<span class="project-tech-tag">${t}</span>`).join('');
+
+        card.innerHTML = `
+            <div class="project-card-header">
+                <div class="project-icon">${project.icon}</div>
+                <span class="project-tag">${project.tag}</span>
+            </div>
+            <h3>${project.title}</h3>
+            <p>${project.description}</p>
+            <div class="project-tech-list">
+                ${techTagsHTML}
+            </div>
+            <div class="project-card-links">
+                <a href="${project.link}" target="_blank" class="project-card-link">
+                    <span>Live Demo</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                </a>
+            </div>
+        `;
+        projectsGrid.appendChild(card);
     });
 }
 
