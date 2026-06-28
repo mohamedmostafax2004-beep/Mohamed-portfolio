@@ -148,7 +148,7 @@ const portfolioData = {
         {
             title: "El-Abd Furnitures Factory",
             description: "El-Abd Furnitures Web System is a premium digital catalog and showroom application built for El-Abd Furniture Factory, designed to showcase high-quality modern furniture with an interactive, responsive layout.",
-            link: "https://mohamedmostafax2004-beep.github.io/El-abd/#products",
+            link: "https://el-abd-furniture.vercel.app/",
             icon: "🛋️",
             tag: "Frontend Catalog",
             tech: ["JavaScript", "HTML5", "CSS3", "Responsive UI"]
