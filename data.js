@@ -163,8 +163,9 @@ const portfolioData = {
         {
             title: "CraftNotes — Notion & Apple Notes Mobile App",
             description: "A complete production-ready mobile application built with React Native (Expo SDK 51 + TypeScript). Features rich markdown block editing, audio/voice notes, image attachments, interactive checklists, calendar view, PIN passcode lock, offline Zustand persistence, and a compiled installable Android APK.",
-            link: "https://github.com/mohamedmostafax2004-beep",
-            buttonText: "View Source / GitHub",
+            link: "./CraftNotes-debug.zip",
+            buttonText: "Download Android App (ZIP / APK - 57 MB)",
+            download: "CraftNotes-debug.zip",
             icon: "📝",
             tag: "React Native Mobile App",
             tech: ["React Native", "Expo SDK 51", "TypeScript", "Zustand", "Reanimated", "AsyncStorage"]
