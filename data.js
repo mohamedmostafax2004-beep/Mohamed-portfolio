@@ -1,7 +1,7 @@
 const portfolioData = {
     personal: {
         name: "Mohamed Mostafa",
-        title: "Front-End Developer & UI/UX Designer",
+        title: "Front-End & React Native Mobile Developer",
         age: 21,
         location: "El Mahalla El Kubra, Gharbia",
         education: {
@@ -10,8 +10,8 @@ const portfolioData = {
             duration: "2022 - 2026",
         },
         about:
-            "I am Mohamed, a 21-year-old Front-End Developer. I have embarked on a passionate journey in learning and mastering HTML, CSS, JavaScript, Tailwind CSS, and React. Along the way, I have successfully built and deployed numerous interactive web projects, focusing on responsive design, clean semantic code, and exceptional user experiences.",
-        specialties: "Web Design & UI/UX Development",
+            "I am Mohamed, a 21-year-old Front-End & React Native Developer. I have embarked on a passionate journey in learning and mastering HTML, CSS, JavaScript, TypeScript, React, React Native (Expo), Tailwind CSS, and Mobile App Development. Along the way, I have successfully built and deployed interactive web & mobile applications, focusing on native performance, clean architecture, responsive design, and exceptional user experiences.",
+        specialties: "Web & Mobile App Development (React Native & Frontend)",
         email: "mohamedmostafax2004@gmail.com",
         whatsapp: "https://wa.me/201050792421",
         facebook: "https://www.facebook.com/share/1GuoqNma7U/",
@@ -22,8 +22,18 @@ const portfolioData = {
     skills: {
         frontend: [
             {
-                name: "React",
+                name: "React Native & Expo",
                 icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                level: "Advanced",
+            },
+            {
+                name: "React.js",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                level: "Advanced",
+            },
+            {
+                name: "TypeScript",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
                 level: "Advanced",
             },
             {
@@ -49,7 +59,7 @@ const portfolioData = {
                 level: "Advanced",
             },
             {
-                name: "Design Systems",
+                name: "Mobile UI/UX Design",
                 icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
                 level: "Advanced",
             },
@@ -75,11 +85,16 @@ const portfolioData = {
                 icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
                 level: "Advanced",
             },
+            {
+                name: "Android SDK & Gradle",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
+                level: "Advanced",
+            },
         ],
     },
     tools: [
         {
-            category: "Version Control",
+            category: "Version Control & Mobile CLI",
             icon: "🔧",
             items: [
                 {
@@ -90,6 +105,10 @@ const portfolioData = {
                     name: "GitHub",
                     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
                     invert: true,
+                },
+                {
+                    name: "Expo CLI & EAS",
+                    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
                 },
             ],
         },
@@ -106,10 +125,14 @@ const portfolioData = {
                     name: "Netlify",
                     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg",
                 },
+                {
+                    name: "Android Build System",
+                    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
+                },
             ],
         },
         {
-            category: "Development & CLI",
+            category: "Development & Environment",
             icon: "💻",
             items: [
                 {
@@ -138,17 +161,28 @@ const portfolioData = {
     ],
     projects: [
         {
+            title: "CraftNotes — Notion & Apple Notes Mobile App",
+            description: "A complete production-ready mobile application built with React Native (Expo SDK 51 + TypeScript). Features rich markdown block editing, audio/voice notes, image attachments, interactive checklists, calendar view, PIN passcode lock, offline Zustand persistence, and a compiled installable Android APK.",
+            link: "https://github.com/mohamedmostafax2004-beep",
+            buttonText: "View Source / GitHub",
+            icon: "📝",
+            tag: "React Native Mobile App",
+            tech: ["React Native", "Expo SDK 51", "TypeScript", "Zustand", "Reanimated", "AsyncStorage"]
+        },
+        {
             title: "Advanced Weather Forecasting Web System",
             description: "Advanced Weather Forecasting Web System, is a full-stack web application designed to help users analyze historical weather data and forecast future weather conditions using reliable climate datasets.",
             link: "https://skycast-weather-dashboard-three.vercel.app/",
+            buttonText: "Live Demo",
             icon: "🌤️",
-            tag: "Full-Stack",
+            tag: "Full-Stack Web App",
             tech: ["React", "JavaScript", "HTML5 & CSS3", "Climate API"]
         },
         {
             title: "El-Abd Furnitures Factory",
             description: "El-Abd Furnitures Web System is a premium digital catalog and showroom application built for El-Abd Furniture Factory, designed to showcase high-quality modern furniture with an interactive, responsive layout.",
             link: "https://el-abd-furniture.vercel.app/",
+            buttonText: "Live Demo",
             icon: "🛋️",
             tag: "Frontend Catalog",
             tech: ["JavaScript", "HTML5", "CSS3", "Responsive UI"]
