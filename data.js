@@ -178,15 +178,6 @@ const portfolioData = {
             icon: "🌤️",
             tag: "Full-Stack Web App",
             tech: ["React", "JavaScript", "HTML5 & CSS3", "Climate API"]
-        },
-        {
-            title: "El-Abd Furnitures Factory",
-            description: "El-Abd Furnitures Web System is a premium digital catalog and showroom application built for El-Abd Furniture Factory, designed to showcase high-quality modern furniture with an interactive, responsive layout.",
-            link: "https://el-abd-furniture.vercel.app/",
-            buttonText: "Live Demo",
-            icon: "🛋️",
-            tag: "Frontend Catalog",
-            tech: ["JavaScript", "HTML5", "CSS3", "Responsive UI"]
         }
     ]
 };
