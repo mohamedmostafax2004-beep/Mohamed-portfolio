@@ -95,7 +95,7 @@ const portfolioData = {
     tools: [
         {
             category: "Version Control & Mobile CLI",
-            icon: "🔧",
+            icon: "⚡",
             items: [
                 {
                     name: "Git",
@@ -114,7 +114,7 @@ const portfolioData = {
         },
         {
             category: "Hosting & Deployment",
-            icon: "🚀",
+            icon: "🌐",
             items: [
                 {
                     name: "Vercel",
@@ -139,7 +139,7 @@ const portfolioData = {
                     name: "VS Code",
                     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
                 },
-                { name: "PowerShell / Terminal", emoji: "⬛" },
+                { name: "PowerShell / Terminal", emoji: "⌨️" },
                 {
                     name: "npm / npx",
                     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
@@ -161,13 +161,23 @@ const portfolioData = {
     ],
     projects: [
         {
-            title: "CraftNotes — Notion & Apple Notes Mobile App",
-            description: "A complete production-ready mobile application built with React Native (Expo SDK 51 + TypeScript). Features rich markdown block editing, audio/voice notes, image attachments, interactive checklists, calendar view, PIN passcode lock, offline Zustand persistence, and a compiled installable Android APK.",
-            link: "./CraftNotes-debug.zip",
-            buttonText: "Download Android App (ZIP / APK - 57 MB)",
-            download: "CraftNotes-debug.zip",
-            icon: "📝",
-            tag: "React Native Mobile App",
+            title: "Noor (نُور) 🌙 - Islamic Habits Tracker, Holy Quran & Qibla App",
+            description: "A complete, beautifully designed Islamic daily habits and spiritual tracker mobile application. Features the full 114 Surahs of the Holy Quran with Juz index, accurate interactive Qibla compass, 5 daily prayers & sunnah tracking with daily streaks, Morning/Evening Athkar, electronic Sebha tasbeeh counter, Sadaqah logger, dark/light theme, and complete offline storage.",
+            link: "https://files.catbox.moe/srzhna.apk",
+            buttonText: "Download Android APK (5.6 MB)",
+            download: "Noor_Islamic_App.apk",
+            icon: "🕌",
+            tag: "Android Mobile App (Release)",
+            tech: ["Android Native", "Java & WebView", "JavaScript", "HTML5 & CSS3", "Local Storage", "Geolocation API"]
+        },
+        {
+            title: "CraftNotes 📝 - Notion & Apple Notes Mobile App",
+            description: "A complete production-ready mobile application built with React Native (Expo SDK 51 + TypeScript). Features rich markdown block editing, audio/voice notes, image attachments, interactive checklists, calendar view, PIN passcode lock, offline Zustand persistence, and a compiled installable Release Android APK (80 MB / compressed 38.9 MB).",
+            link: "./CraftNotes-Release.zip",
+            buttonText: "Download Android App (Release ZIP - 38.9 MB)",
+            download: "CraftNotes-Release.zip",
+            icon: "📱",
+            tag: "React Native Mobile App (Release)",
             tech: ["React Native", "Expo SDK 51", "TypeScript", "Zustand", "Reanimated", "AsyncStorage"]
         },
         {
