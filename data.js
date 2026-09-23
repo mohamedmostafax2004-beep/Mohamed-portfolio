@@ -163,7 +163,7 @@ const portfolioData = {
         {
             title: "Noor (نُور) 🌙 - Islamic Habits Tracker, Holy Quran & Qibla App",
             description: "A complete, beautifully designed Islamic daily habits and spiritual tracker mobile application. Features the full 114 Surahs of the Holy Quran with Juz index, accurate interactive Qibla compass, 5 daily prayers & sunnah tracking with daily streaks, Morning/Evening Athkar, electronic Sebha tasbeeh counter, Sadaqah logger, dark/light theme, and complete offline storage.",
-            link: "Noor_Islamic_App.apk",
+            link: "https://files.catbox.moe/dqku1k.apk",
             buttonText: "Download Android APK (7.6 MB)",
             download: "Noor_Islamic_App.apk",
             icon: "🕌",
